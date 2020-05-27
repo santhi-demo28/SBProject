@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.example.org"
+            targetNamespace="http://www.example.org" elementFormDefault="qualified">
+ <xsd:element name="request">
+    <xsd:annotation>
+      <xsd:documentation>A sample element</xsd:documentation>
+    </xsd:annotation>
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="deptId" type="xsd:int"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  
+    <xsd:complexType name="Employees">
+    <xsd:sequence>
+        <xsd:element name="employeeId" type="xsd:int"/>
+         <xsd:element name="firstName" type="xsd:string" minOccurs="0" nillable="true"/>
+         <xsd:element name="lastName" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="email" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="phoneNumber" type="xsd:string" minOccurs="0" nillable="true"/>
+         <xsd:element name="hireDate" type="xsd:dateTime" minOccurs="0"/>
+         <xsd:element name="jobId" type="xsd:string" minOccurs="0"/>
+         <xsd:element name="salary" type="xsd:decimal" minOccurs="0" nillable="true"/>
+         <xsd:element name="commissionPct" type="xsd:decimal" minOccurs="0" nillable="true"/>
+         <xsd:element name="managerId" type="xsd:int" minOccurs="0" nillable="true"/>
+         <xsd:element name="departmentId" type="xsd:int" minOccurs="0" nillable="true"/>
+         <xsd:element name="poll" type="xsd:decimal" minOccurs="0"/>
+         </xsd:sequence>
+    </xsd:complexType>
+     <xsd:complexType name="EmployeesCollection">
+          <xsd:sequence>
+               <xsd:element name="Employees" type="Employees" minOccurs="0" maxOccurs="unbounded"/>
+          </xsd:sequence>
+     </xsd:complexType>
+     <xsd:element name="EmployeesCollection" type="EmployeesCollection"/>
+     <xsd:element name="fault">
+          <xsd:complexType>
+               <xsd:sequence>
+                    <xsd:element name="message" type="xsd:string"/>
+                    <xsd:element name="errorCode" type="xsd:string"/>
+               </xsd:sequence>
+          </xsd:complexType>
+     </xsd:element>
+</xsd:schema>

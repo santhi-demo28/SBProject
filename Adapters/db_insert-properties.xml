@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+   <entry key="EMPLOYEE_INSERT:db_column_4">EMPLOYEE_POSITION</entry>
+   <entry key="EMPLOYEE_INSERT:db_column_3">EMPLOYEE_DEPT</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_ID:db_column_type">NUMBER</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_NAME:db_column_type">VARCHAR2</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_SAL:db_column_precision">38</entry>
+   <entry key="EMPLOYEE_INSERT:db_column_2">EMPLOYEE_SAL</entry>
+   <entry key="EMPLOYEE_INSERT:db_column_1">EMPLOYEE_ID</entry>
+   <entry key="EMPLOYEE_INSERT:db_column_0">EMPLOYEE_NAME</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_POSITION:db_column_type">VARCHAR2</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_DEPT:db_column_size">20</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_SAL:db_column_scale">0</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_POSITION:db_column_not_null">false</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_ID:db_column_scale">0</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_DEPT:db_column_not_null">false</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_SAL:db_column_not_null">false</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_NAME:db_column_size">20</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_SAL:db_column_type">NUMBER</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_POSITION:db_column_size">20</entry>
+   <entry key="root_descriptor_alias">EMPLOYEE_INSERT</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_ID:db_column_precision">38</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_DEPT:db_column_type">VARCHAR2</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_NAME:db_column_not_null">false</entry>
+   <entry key="EMPLOYEE_INSERT.EMPLOYEE_ID:db_column_not_null">false</entry>
+   <entry key="EMPLOYEE_INSERT:db_table_type">TABLE</entry>
+</properties>
